@@ -1,5 +1,5 @@
 nav { 
-    background-color: black; 
+    background-color: grey; 
     padding: 5px; 
 } 
 nav ul{ 
@@ -43,7 +43,10 @@ footer{
 } 
 body{ 
     font-family: verdana; 
-    margin:0;
+    margin:0;  
+    background-color: black; 
+    color: white; 
+    text-align: left;
 } 
 table{ 
     width: 100%; 
@@ -54,15 +57,16 @@ table{
     padding:2%;
 } 
 th,td,tr{ 
-    border:1px solid black; 
-    text-align: left;
+    border:1px solid white; 
+    text-align: left; 
+    
 } 
 #active{ 
-    border: 2px solid yellow (236,255,10,0.91);
+    background-color: aqua;
 } 
  .design{ 
     text-align: center; 
-    border: 5px solid black; 
+    border: 5px solid aqua; 
     margin: 10px; 
     padding-right: 15px; 
     padding-left: 15px;
@@ -78,4 +82,33 @@ th,td,tr{
 
  .border{ 
     border:2px black;
- }
+ } 
+
+ table{ 
+    width: 50%;  
+    height: 50%;
+    border:1px solid white; 
+    border-collapse: collapse; 
+    font-size: 20px; 
+    margin: 20px; 
+    padding:2%; 
+}  
+header{ 
+    background-image: url(../images/headerimage.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 250px; 
+    color: navajowhite;
+    border: 1px solid blue;
+}  
+.audioContent{ 
+    float: left; 
+    width: 49%; 
+    border :2px white; 
+    max-height: 500px; 
+    min-height: 450px; 
+    overflow: auto;
+
+}
+
+    
