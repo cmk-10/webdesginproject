@@ -92,13 +92,14 @@ th,td,tr{
     font-size: 20px; 
     margin: 20px; 
     padding:2%; 
+    vertical-align: middle;
 }  
 header{ 
-    background-image: url(../images/images/headerimage.jpg);
+    background-image: url(../images/headerimage.jpg); 
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 250px; 
-    color:navajowhite;
+    color: navajowhite;
     border: 1px solid blue;
 }  
 .audioContent{ 
@@ -109,6 +110,21 @@ header{
     min-height: 450px; 
     overflow: auto;
 
-}
+} 
+.table1{  
+width: 100%;
+margin:0 auto; 
+background-color: aqua; 
+color: black; 
+float: left;
+} 
 
+
+   
+
+
+
+
+
+    
     
