@@ -94,11 +94,11 @@ th,td,tr{
     padding:2%; 
 }  
 header{ 
-    background-image: url(../images/headerimage.jpg); 
+    background-image: url(../images/headerimage.jpg);
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 250px; 
-    color: navajowhite;
+    color: blue;
     border: 1px solid blue;
 }  
 .audioContent{ 
