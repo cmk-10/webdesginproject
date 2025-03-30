@@ -95,7 +95,7 @@ th,td,tr{
     vertical-align: middle;
 }  
 header{ 
-    background-image: url(..images/images/headerimage.jpg); 
+    background-image: url(../images/images/headerimage.jpg);  
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 250px; 
